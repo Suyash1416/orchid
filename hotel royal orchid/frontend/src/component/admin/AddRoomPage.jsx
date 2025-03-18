@@ -10,6 +10,7 @@ const AddRoomPage = () => {
         roomType: '',
         roomPrice: '',
         roomDescription: '',
+    
     });
     const [file, setFile] = useState(null);
     const [preview, setPreview] = useState(null);
@@ -17,7 +18,7 @@ const AddRoomPage = () => {
     const [success, setSuccess] = useState('');
     const [roomTypes, setRoomTypes] = useState([]);
     const [newRoomType, setNewRoomType] = useState(false);
-
+{/*suyash hello */}
 
     useEffect(() => {
         const fetchRoomTypes = async () => {

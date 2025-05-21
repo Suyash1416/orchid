@@ -1,0 +1,10 @@
+import java.nio.charset.StandardCharsets;
+import java.util.Base64;
+
+public class KeyGenerator {
+    public static void main(String[] args) {
+        String rawKey = "my-super-secret-key-for-jwt-signing-123456";
+        String base64EncodedKey = Base64.getEncoder().encodeToString(rawKey.getBytes(StandardCharsets.UTF_8));
+        System.out.println("Base64 Encoded Key: " + base64EncodedKey);
+    }
+}

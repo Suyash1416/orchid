@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "HotelPhegonApplication",
+            "request": "launch",
+            "mainClass": "com.phegonde.HotelOrchid.HotelPhegonApplication",
+            "projectName": "HotelPhegon"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HotelPhegonApplication<HotelPhegon>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.phegondev.HotelPhegon.HotelPhegonApplication",
+            "projectName": "HotelPhegon",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
